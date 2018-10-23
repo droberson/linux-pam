@@ -47,11 +47,6 @@ or make the system insecure/unfunctional for a short time!
 Backup all important data before!
 
 
-If you do not wish to make the modules dynamically loadable, but
-build a static libpam including all PAM modules, you have to call:
-
-      ./configure --enable-static-modules --disable-pie
-
 To run the build checks with static modules, you need to run the
 following command: make -C test check && make check
 
